@@ -1,3 +1,15 @@
+li.nav-item {
+    margin-right: 10px;
+}
+
+li.nav-item:last-child {
+    margin-right: 0;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
 /*==================start header area=======================*/
  .logo{
     width: 20vw;
@@ -285,9 +297,11 @@ nav{
 /*==================end get in touch =======================*/
 /*==================start footer area =======================*/
 .footer{
-    width: 100%;
-    min-height: 10vh;
     background-color: #171717;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .footer .col-md-6 a{
     letter-spacing: 1px;

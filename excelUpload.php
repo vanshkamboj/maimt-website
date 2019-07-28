@@ -1,68 +1,65 @@
-
 <?php
-//error_reporting(0);
+set_time_limit(0);
+
 include 'header.html';
-set_time_limit(20);
 
 
-   // getting temporary source of excel file
-  include("PHPExcel-1.8/Classes/PHPExcel/IOFactory.php"); // Add PHPExcel Library in this code
-  $objPHPExcel = PHPExcel_IOFactory::load('uploads/text.xlsx'); // create object of PHPExcel library by using load() method and in load method define path of selected file
-   echo "<h3 class='mt-3'><center>Econtent</center></h3>";
+// getting temporary source of excel file
+include("PHPExcel-1.8/Classes/PHPExcel/IOFactory.php"); // Add PHPExcel Library in this code
 
-  echo '<div class="container"> <table class="table">
+$objPHPExcel = PHPExcel_IOFactory::load('uploads/upload.xlsx'); // create object of PHPExcel library by using load() method and in load method define path of selected file
+
+echo "<h1 class='mt-3'><center>Econtent</center></h1>";
+
+echo '<table class="table table-bordered table-condensed table-responsive table-striped">
   <thead>
-    <tr>
-      
-      <th scope="col">Topic</th>
-      <th scope="col">Link</th>
-      <th scope="col">Video</th>
+    <tr width="100%">
+      <th scope="col" width="25%">Topic</th>
+      <th scope="col" width="25%">Book Reference</th>
+      <th scope="col" width="25%">Web Reference</th>
+      <th scope="col" width="25%">Video Reference</th>
     </tr>
   </thead>
-  </div>';
- 
-  //$output .= "<label class='text-success'>Data Inserted</label><br />";
-  foreach ($objPHPExcel->getWorksheetIterator() as $worksheet)
-  {
-   $highestRow = $worksheet->getHighestRow();
-   
-   for($row=2; $row<=$highestRow; $row++)
-   {
-    
+  <tbody>';
+
+foreach ($objPHPExcel->getWorksheetIterator() as $worksheet) {
+  $highestRow = $worksheet->getHighestRow();
+
+  for ($row = 2; $row <= $highestRow; $row++) {
+
     $topic = $worksheet->getCellByColumnAndRow(0, $row)->getValue();
-    $link = $worksheet->getCellByColumnAndRow(1, $row)->getValue();
-    $video = $worksheet->getCellByColumnAndRow(2, $row)->getValue();
-    
-    // echo "<table class='table responsive'>";
+    $book = $worksheet->getCellByColumnAndRow(1, $row)->getValue();
+    $link = $worksheet->getCellByColumnAndRow(2, $row)->getValue();
+    $video = $worksheet->getCellByColumnAndRow(3, $row)->getValue();
 
-    //  echo "<tr>";
-    //     echo "<td>$topic</td>";
-    //     echo "<td><a href='$link'>$link</a></td>";
-    //     echo "<td><a href='$video'>$video</a></td>";
-    //     echo "</tr>";
-    //     echo "</table>";
-       
-  echo"<div class='container'style='padding-bottom:49px' > <table class='table'>
-  <tbody>
-    <tr class='row'>
-      <td class='col-sm-4'>$topic</td>
-      <td class='col-sm-4' style='overflow-X:hidden;'>$link</td>
-      <td class='col-sm-4' style='overflow-X:hidden;'><a href='$video'>$video</a></td>
-    </tr>
-  </tbody>
-</table>
-</div>";
+    if ($topic) {
+      echo "<tr width='100%'>
+      <td width='25%'>" . htmlspecialchars($topic) . "</td>";
 
+      if ($book) {
+        echo "<td width='25%'><a href='$book'>Open PDF</a></td>";
+      } else {
+        echo "<td width='25%'></td>";
+      }
 
-    //echo $query
-    //;
-   
-   }
-  } 
- 
- 
+      if ($link) {
+        echo "<td width='25%'><a href='$link'>Read</a></td>";
+      } else {
+        echo "<td width='25%'></td>";
+      }
 
+      if ($video) {
+        echo "<td width='25%'><a href='$video'>Watch</a></td>";
+      } else {
+        echo "<td width='25%'></td>";
+      }
 
-//error_reporting(0);
+      echo "</tr>";
+    }
+  }
+}
+
+echo "</tbody>
+</table>";
+
 include 'footer.html';
-?>
