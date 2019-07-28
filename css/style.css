@@ -302,6 +302,7 @@ nav{
     left: 0;
     bottom: 0;
     width: 100%;
+    z-index: 99999;
 }
 .footer .col-md-6 a{
     letter-spacing: 1px;
