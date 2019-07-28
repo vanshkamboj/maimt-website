@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subject</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .col-md-6{
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            color: #fff;
+            margin-top: 50px;
+        }
+        .card{
+            border: none;
+            min-height: 100vh;
+            background: linear-gradient(to right, #068770 0%, #bcc3c2 51%, #046251 100%);
+            box-shadow: 0px 15px 37px  black;
+            border-radius: 19%;
+        }
+        h2{
+            margin-top: 78px;
+        }
+        .link{
+     color:#fff;
+     display:inline-block;
+    margin-top: 45px;
+     text-transform:uppercase; 
+     text-align: center;
+}
+.link:after {
+  display:block;
+  content: '';
+  border-bottom: solid 2px #5e5e61;  
+  transform: scaleX(0);  
+  text-align: center;
+  transition: transform 250ms ease-in-out;
+}
+.link:hover{ 
+    text-decoration: none;
+    outline: 0;
+    text-align: center;
+    transform: scaleX(1);
+    color: #fff;
+     
+}
+.link:hover:after{ 
+    text-decoration: none;
+    outline: 0;
+    transform: scaleX(1);
+     text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 mx-3">
+                        <h2 class="">semester 1</h2>
+                        <span><a href="" class="link">bca-111  computer and programiing fundamentals</a></span><br>
+                        <span><a href="" class="link mt-2">bca-112  window and pc software</a></span><br>
+                        <span><a href="" class="link mt-2">bca-113  mathematical fundations-1</a></span><br>
+                        <span><a href="" class="link mt-2">bca-114  logical oraganizations and computers-1</a></span><br>
+                        <span><a href="" class="link mt-2">bca-115  communicatives english</a></span><br>
+                        <span><a href="" class="link mt-2">bca-116  programming in c</a></span>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

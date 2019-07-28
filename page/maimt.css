@@ -1,0 +1,40 @@
+.card{
+	  /* opacity: 0.4;  */
+	  background-color:rgba(153, 142, 142, 0.801);
+    
+      
+      -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+      transition: width 2s, height 4s;
+}
+    .card:hover {
+      width: 300px;
+      height: 300px;
+    }
+
+body{
+	background-image: url("glasspen.jpg");
+	 background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#row1{
+
+        margin-top:140px;  
+       
+}
+
+#row2{
+
+      margin-top:120px;  
+         
+}	
+a {
+    color: #067e78;
+    
+  }
+  a:hover {
+    color: rgb(31, 13, 3);
+    text-decoration: none;
+  }
+  
+  
