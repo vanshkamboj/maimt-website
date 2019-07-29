@@ -41,6 +41,10 @@ body {
    
    
 }
+@font-face{
+    font-family: myfont;
+    src:url(../black-chancery-cufonfonts/BLKCHCRY.TTF);
+}
 
 
 .col-md-12 img{
@@ -160,7 +164,7 @@ nav{
     color: #fff;
     font-family: "Playfair Display", serif;
     font-weight: 700;
-    top: 125px;
+    top: 70px;
     left: 0;
 }
 .word{
