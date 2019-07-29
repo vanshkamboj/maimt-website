@@ -58,7 +58,7 @@ include("header.html");
 <span><i class='fas fa-chevron-circle-right' style='color:#c2d6d6'></i> To fulfill the social responsibility</span><br>
 It is a charitable and non-profit organisation, that initially built its huge infrastructure in the form of Maharaja Agrasen College to cater to the needs of students in the domains of commerce, Arts, Economics & Computers by running B.A., B.Com., BIM, BCA, MBE, M.Com. courses. It expanded its arena of responsibility by incepting its sister concern, MAIMT to offer MBA and MCA courses.
 
-The sabha is not only discharging its corporate social responsibility well on the ground but also continuously expanding its origin under the prime guidance of Sh. Des Raj Goel (President), Sh. Sushil Gupta (General Secretary) and Sh. Pawan Kumar Garg (Finance Secretary) by continuously developing the new charitable institutions.</p>
+The sabha is not only discharging its corporate social responsibility well on the ground but also continuously expanding its origin under the prime guidance of Sh. Shushil Gupta (President), Sh. Praveen Goel(Vice President), Dr. Ashwini Goel (General Secretary) and Sh. Pawan Kumar Garg (Finance Secretary) by continuously developing the new charitable institutions.</p>
             </div>
            </div>
         
