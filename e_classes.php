@@ -3,7 +3,7 @@ include("header.html");
 ?>
 <style type="text/css">
  .section{
-    background: url("images/elearning.jpg") no-repeat center top fixed;
+    background: url("images/78.jpg") no-repeat center top fixed;
     background-size: cover;
     background-attachment: fixed;
     min-height:79vh;
@@ -76,7 +76,7 @@ include("header.html");
     position: absolute;
     top:50%;
     
-    transform: translateY(-50%);
+transform: translateY(-50%);
     padding: 10px;
     color: #fff;
 }
@@ -93,10 +93,7 @@ include("header.html");
      font-size:50px;
      text-align:center;
 }
-/*#first .card .details .content a:hover{*/
-/*  text-decoration: none;*/
-/*    outline: 0;*/
-/*}*/
+
 #first .card .details .content p{
     margin: 10px 0 0;
     text-align: center;
@@ -107,13 +104,13 @@ include("header.html");
 <header id="first">
     <div class="container">
         <div class="row mt-3">
-          <div class="col-md-2"></div>
-           <div class="col-md-4 col-sm-6 mr-2 mt-2">
+         
+           <div class="col-md-4 col-sm-6 mt-2">
                 <div class="card">
                     <div class="imgcard">
                         <h5>BCA</h5>
                     </div>
-                    <a href="e_sem.php" class="link"><div class="details">
+                    <a href="sem.php" class="link"><div class="details">
                         <div class="content">
                        <h2 style="margin-left:110px;margin-right:0;">BCA</h2>  
                            
@@ -121,12 +118,12 @@ include("header.html");
                     </div></a>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mr-2 mt-2">
+            <div class="col-md-4 col-sm-6 mt-2">
                <div class="card">
                     <div class="imgcard">
                         <h5>BBA</h5>
                     </div>
-                    <a href="p" class="link"><div class="details">
+                    <a href="sem.php" class="link"><div class="details">
                         <div class="content">
                        <h2 style="margin-left:110px;margin-right:0;"> BBA</h2>  
                            
@@ -134,16 +131,12 @@ include("header.html");
                     </div></a>
                 </div>
             </div>
-            <div class="col-md-2"></div>
-          </div>
-        <div class="row my-4">
-          <div class="col-md-2"></div>
-            <div class="col-md-4 col-sm-6 mr-2 mt-2">
+            <div class="col-md-4 col-sm-6 mt-2">
                <div class="card">
                     <div class="imgcard">
                         <h5>MCA</h5>
                     </div>
-                    <a href="" class="link"><div class="details">
+                    <a href="sem.php" class="link"><div class="details">
                         <div class="content">
                        <h2 style="margin-left:110px;margin-right:0;"> MCA</h2>  
                            
@@ -151,12 +144,16 @@ include("header.html");
                     </div></a>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mr-2 mt-2">
-                <div class="card">
+            
+          </div>
+        <div class="row my-4">
+         
+            <div class="col-md-4 col-sm-6 mt-2">
+               <div class="card">
                     <div class="imgcard">
                         <h5>MBA</h5>
                     </div>
-                    <a href="" class="link"><div class="details">
+                    <a href="sem.php" class="link"><div class="details">
                         <div class="content">
                        <h2 style="margin-left:110px;margin-right:0;"> MBA</h2>  
                            
@@ -164,7 +161,33 @@ include("header.html");
                     </div></a>
                 </div>
             </div>
-          <div class="col-md-2"></div>
+            <div class="col-md-4 col-sm-6 mt-2">
+                <div class="card">
+                    <div class="imgcard m-2">
+                        <h5 style="font-size:23px;">VALUE ADDED COURSES FOR MANAGEMENT</h5>
+                    </div>
+                    <a href="sem.php" class="link"><div class="details">
+                        <div class="content">
+                       <h2 style="font-size:20px;"> VALUE ADDED COURSES FOR MANAGEMENT</h2>  
+                           
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mt-2">
+                <div class="card">
+                    <div class="imgcard mx-2">
+                        <h5 style="font-size:23px;">VALUE ADDED COURSES FOR COMPUTER APPLICATION</h5>
+                    </div>
+                    <a href="sem.php" class="link"><div class="details">
+                        <div class="content">
+                       <h2 style="font-size:20px;"> VALUE ADDED COURSES FOR COMPUTER APPLICATION</h2>  
+                           
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+         
         </div>
     </div>
 </header>
