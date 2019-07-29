@@ -19,7 +19,7 @@ include("header.html");
                                 </span>
                             </div>
                             <div class="facility-content pb-2">
-                                <h4>Computer journals</h4>
+                                <h4>Computer Application</h4>
                                 <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quis et magnam?</p> -->
                             </div>
                         </div>

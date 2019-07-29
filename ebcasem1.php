@@ -11,7 +11,7 @@ include("header.html");
     <button type="button" onclick="window.location.href = 'syallbus/113.html';" class="list-group-item list-group-item-action"><b>BCA-113 </b>Mathmatical Foundations-1</button>
     <button type="button" onclick="window.location.href = 'syallbus/114.html';" class="list-group-item list-group-item-action"><b>BCA-114 </b>Logical Organization of Computers-1</button>
     <button type="button" onclick="window.location.href = 'syallbus/115.html';" class="list-group-item list-group-item-action"><b>BCA-115 </b>Communicative English</button>
-    <button type="button" onclick="window.location.href = '/view.php?file=bca/1/116.xlsx';" class="list-group-item list-group-item-action"><b>BCA-116 </b>Programming in c</button>
+    <button type="button" onclick="window.location.href = 'view.php?file=bca/1/116.xlsx';" class="list-group-item list-group-item-action"><b>BCA-116 </b>Programming in c</button>
 
   </div>
 </div>
