@@ -11,7 +11,9 @@ include("header.html");
                                             <h1><span class="display-4">Welcome To</span> <br><span class="word">MAHARAJA </span>AGRASEN INSTITUTE</h1>
                                             <h2>of</h2>
                                             <h1>Management & Technology</h1>
-                                            <h1>Digital Library </h1>
+                                            <h1 class="display-1" style="font-size:92px; font-weight:500;font-family:myfont;letter-spacing:3px; background: -webkit-linear-gradient(#03b0c5, #d3fcfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;">Digital Library </h1>
                                         </div>
                                     </div>
                                 </div>
@@ -25,8 +27,8 @@ include("header.html");
                     <div class="single-about row">
                         <div class="col-lg-4 col-md-6">
                             <div class="about-content">
-                                <h1>We Believe that <br> Our college is best</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, inventore eum amet corporis atque ducimus vero facilis, ullam dignissimos assumenda sequi accusantium in blanditiis. Id pariatur dolorum placeat nam, praesentium non ipsam harum eveniet.</p>
+                                <h1>Purpose of <br> Digital Library @ MAIMT</h1>
+                                <p>The Digital Library at Maharaja Agrasen Institute of Management & Technology has been developed to provide easy access of the resources like E-book, Journal, Syllabus, Previous Years University Questions, Time Table and other academic resources to the student of the institute. </p>
                                 <a href="" class="primary-btn">Details</a>
                             </div>
                         </div>
@@ -96,7 +98,7 @@ include("header.html");
                         <div class="facility-box">
                             <div class="facility-icon mb-3">
                                 <span class="ico-circle">
-                                    <img class="img" src="images/1.png">
+                                    <img class="img" src="images/21.png">
                                 </span>
                             </div>
                             <div class="facility-content pb-2">
@@ -109,7 +111,7 @@ include("header.html");
                             <div class="facility-box">
                                 <div class="facility-icon mb-3">
                                     <span class="ico-circle">
-                                        <img class="img" src="images/2.png">
+                                        <img class="img" src="images/22.png">
                                     </span>
                                 </div>
                                 <div class="facility-content pb-2">
@@ -122,7 +124,7 @@ include("header.html");
                                 <div class="facility-box">
                                     <div class="facility-icon mb-3">
                                         <span class="ico-circle">
-                                            <img class="img" src="images/3.png">
+                                            <img class="img" src="images/24.png">
                                         </span>
                                     </div>
                                     <div class="facility-content pb-2">
