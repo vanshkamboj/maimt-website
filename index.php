@@ -54,7 +54,7 @@ include("header.html");
                 </div>
                 <div class="row text-center mt-3">
                     <div class="col-md-4">
-                        <div class="facility-box">
+                    <a href="elearningsem.php"><div class="facility-box">
                             <div class="facility-icon mb-3">
                                 <span class="ico-circle">
                                     <img class="img" src="images/1.png">
@@ -65,10 +65,10 @@ include("header.html");
                                 <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quis et magnam?</p> -->
                             </div>
                         </div>
-                    </div>
+                    </div></a>
                     <div class="col-md-4">
                             <div class="facility-box">
-                                <div class="facility-icon mb-3">
+                            <a href="elearningsem.php">  <div class="facility-icon mb-3">
                                     <span class="ico-circle">
                                         <img class="img" src="images/2.png">
                                     </span>
@@ -78,9 +78,9 @@ include("header.html");
                                     <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quis et magnam?</p> -->
                                 </div>
                             </div>
-                        </div>
+                        </div></a>
                         <div class="col-md-4">
-                                <div class="facility-box">
+                        <a href="elearningsem.php"> <div class="facility-box">
                                     <div class="facility-icon mb-3">
                                         <span class="ico-circle">
                                             <img class="img" src="images/3.png">
@@ -91,12 +91,12 @@ include("header.html");
                                         <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quis et magnam?</p> -->
                                     </div>
                                 </div>
-                            </div>
+                            </div></a>
                 </div>
                 <div class="row text-center mt-3">
                     <div class="col-md-4 mt-3">
                         <div class="facility-box">
-                            <div class="facility-icon mb-3">
+                        <a href="elearningsem.php"> <div class="facility-icon mb-3">
                                 <span class="ico-circle">
                                     <img class="img" src="images/21.png">
                                 </span>
@@ -106,9 +106,9 @@ include("header.html");
                                 <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quis et magnam?</p> -->
                             </div>
                         </div>
-                    </div>
+                    </div></a>
                     <div class="col-md-4 mt-3">
-                            <div class="facility-box">
+                    <a href="elearningsem.php">  <div class="facility-box">
                                 <div class="facility-icon mb-3">
                                     <span class="ico-circle">
                                         <img class="img" src="images/22.png">
@@ -119,9 +119,9 @@ include("header.html");
                                     <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quis et magnam?</p> -->
                                 </div>
                             </div>
-                        </div>
+                        </div></a>
                         <div class="col-md-4 mt-3">
-                                <div class="facility-box">
+                        <a href="elearningsem.php">   <div class="facility-box">
                                     <div class="facility-icon mb-3">
                                         <span class="ico-circle">
                                             <img class="img" src="images/24.png">
@@ -132,7 +132,7 @@ include("header.html");
                                         <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quis et magnam?</p> -->
                                     </div>
                                 </div>
-                            </div>
+                            </div></a>
                 </div>
                 </div>
             </div>            <!--==================end facility=======================-->
