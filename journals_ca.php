@@ -6,6 +6,10 @@ if (isset($_GET['path'])) {
     $path .= "/" . urldecode($_GET['path']);
 }
 
+if (!is_dir($path)) {
+    header('Location: jaurnal.php');
+}
+
 $dir = new DirectoryIterator($path);
 
 include("header.html");
