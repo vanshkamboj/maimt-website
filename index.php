@@ -11,8 +11,7 @@ include("header.html");
                                             <h1><span class="display-4">Welcome To</span> <br><span class="word">MAHARAJA </span>AGRASEN INSTITUTE</h1>
                                             <h2>of</h2>
                                             <h1>Management & Technology</h1>
-                                            <!--<h4>Yamunanagar Jagadhari 135003</h4>-->
-                                            <a href="" class="primary-btn mt-4">Learn More</a>
+                                            <h1>Digital Library </h1>
                                         </div>
                                     </div>
                                 </div>
