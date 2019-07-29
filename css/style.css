@@ -87,7 +87,7 @@ body {
     right: 0;
 } */
 .navbar-nav .nav-item a{
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     
     text-transform: uppercase;
     color: #fff;
@@ -97,7 +97,7 @@ body {
 }
   
    .navbar .nav-link:hover{
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     color: #020203;
    }
