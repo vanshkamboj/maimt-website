@@ -48,19 +48,19 @@ foreach ($objPHPExcel->getWorksheetIterator() as $worksheet) {
       <td style='width:40%'>" . htmlspecialchars($topic) . "</td>";
 
       if ($book) {
-        echo "<td style='width:20%'><a href='$book'>Open PDF</a></td>";
+        echo "<td style='width:20%'><a href='$book'>Read E-Book</a></td>";
       } else {
         echo "<td style='width:20%'>--</td>";
       }
 
       if ($link) {
-        echo "<td style='width:20%'><a href='$link'>Read</a></td>";
+        echo "<td style='width:20%'><a href='$link'>Study from Website</a></td>";
       } else {
         echo "<td style='width:20%'>--</td>";
       }
 
       if ($video) {
-        echo "<td width='20%'><a href='$video'>Watch</a></td>";
+        echo "<td width='20%'><a href='$video'>Watch Video</a></td>";
       } else {
         echo "<td width='20%'>--</td>";
       }
