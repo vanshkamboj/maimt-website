@@ -3,15 +3,29 @@ include("header.html");
 ?>
 <style type="text/css">
  .section{
-    background: url("images/78.jpg") no-repeat center top fixed;
+    background: url("images/sem.jpg") no-repeat center top fixed;
     background-size: cover;
     background-attachment: fixed;
-    min-height:79vh;
+    min-height:65vh;
     width: 100%;
+}
+.section #first{
+    background-color: rgba(4, 18, 19, 0.6);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 65vh;
+}
+
+.navbar-brand{
+    font-family: Arial black;
+
 }
 #first .container{
     width: 100%;
-  }
+    
+}
 #first {
     padding: 70px;
 }
@@ -23,7 +37,7 @@ include("header.html");
     box-sizing: border-box;
     display: inline-block;
     border: none;
-    border-radius: 2%;
+    border-radius: 50%;
     opacity: 0.9;
     box-shadow: 5px 5px 15px #464849;
     transition: all 0.3s ease-in;
@@ -33,7 +47,7 @@ include("header.html");
 #first .container .card:hover{
     background: #074750;
     color: #2e6ca5;
-    border-radius: 5px;
+    border-radius: 50%;
     border: none;
     box-shadow: 5px 5px 10px #191c20;
 }
@@ -44,18 +58,16 @@ include("header.html");
 }
 #first .card .imgcard h5{
     text-align: center;
-    margin-top: 63px;
+    margin-top: 77px;
     color: #d5dade;
-    font-size:35px;
     font-weight: bold;
     transition: transform 2s;
-    border-radius: 2%;
+    border-radius: 50%;
     font-family: Arial, Helvetica, sans-serif;
 }
 #first .card:hover .imgcard h5{
     transform: scale(1.2);
-    transition: transform 2s;
-    color: rgb(0,0,0,.1);
+    color:rgb(0,0,0,.1);
 }
 
 #first .card .details{
@@ -64,130 +76,135 @@ include("header.html");
     left: 10px;
     bottom: 10px;
     right: 10px;
+    border-radius: 50%;
     background: rgb(0,0,0,.8);
-    transform: scaleY(0);
+    transform: scaleX(0);
     transition: transform .5s;
 }
 #first .card:hover .details{
-    transform: scaleY(1);
+    transform: scaleX(1);
 }
 
 #first .card .details .content{
     position: absolute;
     top:50%;
-    
-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
     padding: 10px;
     color: #fff;
 }
 #first .card .details .content a{
-    margin: 0;
+    margin-left: 20px;
     padding: 0;
     font-size: 5vh;
     text-align: center;
     color: #c8ca07;
     font-weight: bolder;
 }
-.content h2{
-     color: #c8ca07;
-     font-size:50px;
-     text-align:center;
-}
-
 #first .card .details .content p{
     margin: 10px 0 0;
     text-align: center;
     
 }
+#first .card .details .content a:hover{
+  text-decoration: none;
+    outline: 0;
+} 
+.content h2{
+     color: #c8ca07;
+     font-size:30px;
+     text-align:center;
+}
+  
 </style>
-  <div class="section">
+<div class="section">
 <header id="first">
     <div class="container">
-        <div class="row mt-3">
-         
-           <div class="col-md-4 col-sm-6 mt-2">
-                <div class="card">
-                    <div class="imgcard">
-                        <h5>BCA</h5>
-                    </div>
-                    <a href="elearningsem.php" class="link"><div class="details">
-                        <div class="content">
-                       <h2 style="margin-left:110px;margin-right:0;">BCA</h2>  
-                           
-                        </div>
-                    </div></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 mt-2">
-               <div class="card">
-                    <div class="imgcard">
-                        <h5>BBA</h5>
-                    </div>
-                    <a href="sem.php" class="link"><div class="details">
-                        <div class="content">
-                       <h2 style="margin-left:110px;margin-right:0;"> BBA</h2>  
-                           
-                        </div>
-                    </div></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 mt-2">
-               <div class="card">
-                    <div class="imgcard">
-                        <h5>MCA</h5>
-                    </div>
-                    <a href="sem.php" class="link"><div class="details">
-                        <div class="content">
-                       <h2 style="margin-left:110px;margin-right:0;"> MCA</h2>  
-                           
-                        </div>
-                    </div></a>
-                </div>
-            </div>
-            
-          </div>
         <div class="row my-4">
-         
+          <!-- <div class="col-md-2"></div> -->
             <div class="col-md-4 col-sm-6 mt-2">
-               <div class="card">
+                <div class="card">
                     <div class="imgcard">
-                        <h5>MBA</h5>
+                        <h5>SEMESTER I</h5>
                     </div>
-                    <a href="sem.php" class="link"><div class="details">
+                    <a href='ebcasem1.php'><div class="details">
                         <div class="content">
-                       <h2 style="margin-left:110px;margin-right:0;"> MBA</h2>  
-                           
+                        <h2 style="margin-left:68px;margin-right:0;">SEMESTER I</h2>
+                            
                         </div>
                     </div></a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 mt-2">
                 <div class="card">
-                    <div class="imgcard m-2">
-                        <h5 style="font-size:23px;">VALUE ADDED COURSES FOR MANAGEMENT</h5>
+                    <div class="imgcard">
+                        <h5>SEMESTER II</h5>
                     </div>
-                    <a href="sem.php" class="link"><div class="details">
+                    <a href='bcasem2.php'><div class="details">
                         <div class="content">
-                       <h2 style="font-size:20px;"> VALUE ADDED COURSES FOR MANAGEMENT</h2>  
-                           
+                        <h2 style="margin-left:68px;margin-right:0;">SEMESTER II</h2>
+                            
                         </div>
                     </div></a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 mt-2">
                 <div class="card">
-                    <div class="imgcard mx-2">
-                        <h5 style="font-size:23px;">VALUE ADDED COURSES FOR COMPUTER APPLICATION</h5>
+                    <div class="imgcard">
+                        <h5>SEMESTER III</h5>
                     </div>
-                    <a href="sem.php" class="link"><div class="details">
+                    <a href='bcasem3.php'><div class="details">
                         <div class="content">
-                       <h2 style="font-size:20px;"> VALUE ADDED COURSES FOR COMPUTER APPLICATION</h2>  
+                        <h2 style="margin-left:68px;margin-right:0;">SEMESTER III</h2>
+                            
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row my-5">
+          <!-- <div class="col-md-2"></div> -->
+            <div class="col-md-4 col-sm-6 mb-3">
+                <div class="card">
+                    <div class="imgcard">
+                        <h5>SEMESTER IV</h5>
+                    </div>
+                    <a href='bcasem4.php'><div class="details">
+                        <div class="content">
+                        <h2 style="margin-left:68px;margin-right:0;">SEMESTER IV</h2>
+                            
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-3">
+                <div class="card">
+                    <div class="imgcard">
+                        <h5>SEMESTER V</h5>
+                    </div>
+                    <a href='bcasem5.php'><div class="details">
+                        <div class="content">
+                        <h2 style="margin-left:68px;margin-right:0;">SEMESTER V</h2>
                            
                         </div>
                     </div></a>
                 </div>
             </div>
-         
+            <div class="col-md-4 col-sm-6 mb-3 ">
+                <div class="card">
+                    <div class="imgcard">
+                        <h5>SEMESTER VI</h5>
+                    </div>
+                    <a href='bcasem6.php'><div class="details">
+                        <div class="content">
+                        <h2 style="margin-left:68px;margin-right:0;">SEMESTER VI</h2>
+                           
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+
         </div>
     </div>
 </header>
