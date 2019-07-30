@@ -33,9 +33,11 @@ include("header.html");
                 <td><a href=\"journals_ca.php?path={$encodedName}\">$dirName</td>
                 </tr>";
                     } else {
-                        echo  "<tr>
+                        if ($fileinfo->getFilename() != 'index.php') {
+                            echo  "<tr>
                 <td><a href=\"{$path}/{$dirName}\"  target=\"_blank\">$dirName</td>
                 </tr>";
+                        }
                     }
                 }
             }
