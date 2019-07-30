@@ -125,8 +125,8 @@ include("header.html");
                <div class="card">
                     <div class="imgcard">
                         <h5>BBA</h5>
-                    </div>
-                    <a href="paper_sem.php" class="link"><div class="details">
+                    </div>''
+                    <a href="TimeTable/TTMBABBA2019.pdf" target="_blank" class="link"><div class="details">
                         <div class="content">
                        <h2 style="margin-left:110px;margin-right:0;"> BBA</h2>  
                            
@@ -143,7 +143,7 @@ include("header.html");
                     <div class="imgcard">
                         <h5>MCA</h5>
                     </div>
-                    <a href="paper_sem.php" class="link"><div class="details">
+                    <a href=href="TimeTable/TTMBABBA2019.pdf" target="_blank" class="link"><div class="details">
                         <div class="content">
                        <h2 style="margin-left:110px;margin-right:0;"> MCA</h2>  
                            
