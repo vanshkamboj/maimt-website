@@ -34,7 +34,7 @@ include("header.html");
                 </tr>";
                     } else {
                         echo  "<tr>
-                <td><a href=\"{$path}/{$dirName}\">$dirName</td>
+                <td><a href=\"{$path}/{$dirName}\"  target=\"_blank\">$dirName</td>
                 </tr>";
                     }
                 }
