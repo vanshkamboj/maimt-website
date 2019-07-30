@@ -113,7 +113,7 @@ include("header.html");
                     <div class="imgcard">
                         <h5>BCA</h5>
                     </div>
-                    <a href="paper_sem.php" class="link"><div class="details">
+                    <a href="TimeTable/MCA-BCA time table.pdf" target="_blank" class="link"><div class="details">
                         <div class="content">
                        <h2 style="margin-left:110px;margin-right:0;">BCA</h2>  
                            
@@ -143,7 +143,7 @@ include("header.html");
                     <div class="imgcard">
                         <h5>MCA</h5>
                     </div>
-                    <a href=href="TimeTable/TTMBABBA2019.pdf" target="_blank" class="link"><div class="details">
+                    <a href="TimeTable/MCA-BCA time table.pdf" target="_blank" class="link"><div class="details">
                         <div class="content">
                        <h2 style="margin-left:110px;margin-right:0;"> MCA</h2>  
                            
@@ -156,7 +156,7 @@ include("header.html");
                     <div class="imgcard">
                         <h5>MBA</h5>
                     </div>
-                    <a href="paper_sem.php" class="link"><div class="details">
+                    <a href="TimeTable/TTMBABBA2019.pdf" target="_blank" class="link"><div class="details">
                         <div class="content">
                        <h2 style="margin-left:110px;margin-right:0;"> MBA</h2>  
                            
