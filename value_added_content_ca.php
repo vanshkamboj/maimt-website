@@ -149,7 +149,7 @@ include("header.html");
                         <div class="imgcard">
                             <h5>HTML</h5>
                         </div>
-                        <a href="view.php?html.xlsx" target="_blank">
+                        <a href="view.php?file=html.xlsx" target="_blank">
                             <div class="details">
                                 <div class="content">
                                     <h2 style="margin-left:68px;margin-right:0;">HTML</h2>
