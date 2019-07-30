@@ -132,9 +132,9 @@ include("header.html");
 <div class="section">
     <header id="first">
         <div class="container">
-            <div class="row my-4">
-                <!-- <div class="col-md-2"></div> -->
-                <div class="col-md-4 col-sm-6 mt-2">
+            <div class="row my-2">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 col-sm-6">
                     <div class="card">
                         <div class="imgcard">
                             <h5>SEMESTER I</h5>
@@ -149,12 +149,13 @@ include("header.html");
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mt-2">
+               
+                <div class="col-md-4 col-sm-6">
                     <div class="card">
                         <div class="imgcard">
                             <h5>SEMESTER II</h5>
                         </div>
-                        <a href='paper_mbasem2.php'>
+                        <a href='paper_mbasem3.php'>
                             <div class="details">
                                 <div class="content">
                                     <h2 style="margin-left:68px;margin-right:0;">SEMESTER II</h2>
@@ -164,12 +165,16 @@ include("header.html");
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mt-2">
+    <div class="col-md-2"></div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 col-sm-6 mb-3">
                     <div class="card">
                         <div class="imgcard">
                             <h5>SEMESTER III</h5>
                         </div>
-                        <a href='paper_mbasem3.php'>
+                        <a href='paper_mbasem4.php'>
                             <div class="details">
                                 <div class="content">
                                     <h2 style="margin-left:68px;margin-right:0;">SEMESTER III</h2>
@@ -179,26 +184,7 @@ include("header.html");
                         </a>
                     </div>
                 </div>
-
-            </div>
-            <div class="row my-5">
-                <!-- <div class="col-md-2"></div> -->
-                <div class="col-md-4 col-sm-6 mb-3">
-                    <div class="card">
-                        <div class="imgcard">
-                            <h5>SEMESTER IV</h5>
-                        </div>
-                        <a href='paper_mbasem4.php'>
-                            <div class="details">
-                                <div class="content">
-                                    <h2 style="margin-left:68px;margin-right:0;">SEMESTER IV</h2>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-3">
+                <!-- <div class="col-md-4 col-sm-6 mb-3">
                     <div class="card">
                         <div class="imgcard">
                             <h5>SEMESTER V</h5>
@@ -212,23 +198,23 @@ include("header.html");
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-4 col-sm-6 mb-3 ">
                     <div class="card">
                         <div class="imgcard">
-                            <h5>SEMESTER VI</h5>
+                            <h5>SEMESTER IV</h5>
                         </div>
                         <a href='paper_mbasem6.php'>
                             <div class="details">
                                 <div class="content">
-                                    <h2 style="margin-left:68px;margin-right:0;">SEMESTER VI</h2>
+                                    <h2 style="margin-left:68px;margin-right:0;">SEMESTER IV</h2>
 
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
-
+    <div class="col-md-2"></div>
             </div>
         </div>
     </header>
