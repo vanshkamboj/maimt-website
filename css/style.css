@@ -257,6 +257,10 @@ nav{
     color: #fff;
     font-size: 17px;
 }
+
+.color-black p {
+color: #000;
+}    
 .ico-circle {
     height: 100px;
     width: 100px;
